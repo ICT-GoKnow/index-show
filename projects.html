@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Knowledge Computing Group</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Knowledge Computing Group</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="events.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="people.html" class="nav-link">People</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 页面标题 -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Research Projects</h1>
+                <p>Explore our cutting-edge research projects and technological innovations</p>
+            </div>
+        </section>
+
+        <!-- 项目筛选 -->
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Projects</button>
+                    <button class="filter-tab" data-filter="ongoing">Ongoing</button>
+                    <button class="filter-tab" data-filter="completed">Completed</button>
+                    <button class="filter-tab" data-filter="funded">Funded</button>
+                    <button class="filter-tab" data-filter="industry">Industry</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目统计 -->
+        <section class="project-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="total-projects">-</div>
+                            <div class="stat-label">Total Projects</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="ongoing-projects">-</div>
+                            <div class="stat-label">Ongoing</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="completed-projects">-</div>
+                            <div class="stat-label">Completed</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-github"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="total-stars">-</div>
+                            <div class="stat-label">GitHub Stars</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 所有项目 -->
+        <section class="all-projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>All Projects</h2>
+                    <div class="project-count">
+                        <span id="project-count-display">Loading...</span>
+                    </div>
+                </div>
+                
+                <!-- 加载指示器 -->
+                <div class="loading-indicator" id="loading-indicator">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>Loading projects...</span>
+                </div>
+
+                <!-- 项目网格 -->
+                <div class="projects-grid" id="projects-container">
+                    <!-- 项目将通过JavaScript动态加载 -->
+                </div>
+
+                <!-- 无项目提示 -->
+                <div class="no-projects" id="no-projects" style="display: none;">
+                    <i class="fas fa-search"></i>
+                    <h3>No projects found</h3>
+                    <p>Try adjusting your filter criteria to see more projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目合作 -->
+        <section class="project-collaboration">
+            <div class="container">
+                <div class="collaboration-card">
+                    <div class="collaboration-content">
+                        <h2>Interested in Collaboration?</h2>
+                        <p>We welcome partnerships with universities, research institutions, and industry partners. Let's work together to advance knowledge computing technologies.</p>
+                        <div class="collaboration-features">
+                            <div class="feature-item">
+                                <i class="fas fa-handshake"></i>
+                                <span>Industry Partnerships</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Academic Collaborations</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-code"></i>
+                                <span>Open Source Projects</span>
+                            </div>
+                        </div>
+                        <div class="collaboration-actions">
+                            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                            <a href="#" class="btn btn-outline">View Guidelines</a>
+                        </div>
+                    </div>
+                    <div class="collaboration-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Knowledge Computing Group</h3>
+                    <p>Institute of Computing Technology, Chinese Academy of Sciences</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> contact@research-group.edu</p>
+                    <p><i class="fas fa-phone"></i> +86-xxx-xxxx-xxxx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> No.6 Kexueyuan South Road, Haidian District, Beijing</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Knowledge Computing Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

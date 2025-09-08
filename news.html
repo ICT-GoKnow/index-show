@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - Knowledge Computing Group</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Knowledge Computing Group</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link active">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="events.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="people.html" class="nav-link">People</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 页面标题 -->
+        <section class="page-header">
+            <div class="container">
+                <h1>News & Updates</h1>
+                <p>Stay updated with our latest research progress and important announcements</p>
+            </div>
+        </section>
+
+        <!-- 新闻列表 -->
+        <section class="news-section">
+            <div class="container">
+                <div class="news-filters">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="awards">获奖</button>
+                    <button class="filter-btn" data-filter="publications">论文</button>
+                    <button class="filter-btn" data-filter="collaborations">合作</button>
+                    <button class="filter-btn" data-filter="events">活动</button>
+                </div>
+
+                <div class="news-timeline">
+                    <article class="news-item" data-category="awards" id="icml-2024">
+                        <div class="news-date">
+                            <span class="day">15</span>
+                            <span class="month">01</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>研究组在ICML 2024发表重要论文</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-user"></i> 张三, 李四
+                                <i class="fas fa-tag"></i> 获奖, 论文发表
+                            </p>
+                            <p>我们的研究论文"Deep Learning for Medical Image Analysis: A Comprehensive Survey"被国际机器学习会议ICML 2024接收。该论文系统性地总结了深度学习在医学图像分析中的应用，为相关领域的研究者提供了重要的参考。</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">阅读全文</a>
+                                <a href="#" class="btn btn-outline">下载PDF</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item" data-category="collaborations" id="huawei-collaboration">
+                        <div class="news-date">
+                            <span class="day">10</span>
+                            <span class="month">01</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>与华为公司签署合作协议</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-handshake"></i> 合作签约
+                                <i class="fas fa-tag"></i> 企业合作
+                            </p>
+                            <p>研究组与华为技术有限公司签署了为期三年的合作研究协议，共同推进AI技术在通信、云计算等领域的产业化应用。合作将涉及大语言模型、联邦学习等多个前沿技术方向。</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">了解详情</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item" data-category="awards" id="best-paper-award">
+                        <div class="news-date">
+                            <span class="day">05</span>
+                            <span class="month">01</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>博士生获得优秀论文奖</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-trophy"></i> 张三
+                                <i class="fas fa-tag"></i> 获奖, 学生成就
+                            </p>
+                            <p>研究组博士生张三的论文"Federated Learning with Differential Privacy: A Survey"在AAAI 2024会议上获得最佳学生论文奖。这是我校学生首次在该会议上获得此殊荣。</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">阅读全文</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item" data-category="publications">
+                        <div class="news-date">
+                            <span class="day">28</span>
+                            <span class="month">12</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>多篇论文被顶级会议接收</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-file-alt"></i> 论文发表
+                                <i class="fas fa-tag"></i> 学术成果
+                            </p>
+                            <p>研究组在2023年12月有多篇论文被国际顶级会议接收，包括CVPR、EMNLP等。这些成果涵盖了计算机视觉、自然语言处理等多个AI领域。</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">查看论文列表</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item" data-category="events">
+                        <div class="news-date">
+                            <span class="day">20</span>
+                            <span class="month">12</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>成功举办AI前沿技术研讨会</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-calendar"></i> 学术活动
+                                <i class="fas fa-tag"></i> 会议, 研讨会
+                            </p>
+                            <p>研究组成功举办了"AI前沿技术研讨会"，邀请了来自清华大学、北京大学、中科院等知名机构的专家学者，共同探讨人工智能技术的最新发展趋势。</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">查看会议资料</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item" data-category="awards">
+                        <div class="news-date">
+                            <span class="day">15</span>
+                            <span class="month">12</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>获得国家科技进步二等奖</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-medal"></i> 团队获奖
+                                <i class="fas fa-tag"></i> 国家级奖项
+                            </p>
+                            <p>研究组参与的"智能医疗诊断系统关键技术及应用"项目获得2023年度国家科技进步二等奖。该项目在医学影像AI诊断方面取得了重要突破。</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">了解项目详情</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item" data-category="publications">
+                        <div class="news-date">
+                            <span class="day">10</span>
+                            <span class="month">12</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>Knowledge Graph论文被WWW 2024接收</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-file-alt"></i> 论文发表
+                                <i class="fas fa-tag"></i> 顶级会议
+                            </p>
+                            <p>Our research paper "Knowledge Graph Completion with Graph Neural Networks" has been accepted at WWW 2024. This work presents novel approaches for knowledge graph reasoning.</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item" data-category="collaborations">
+                        <div class="news-date">
+                            <span class="day">05</span>
+                            <span class="month">12</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="news-content">
+                            <h2>与清华大学签署知识计算合作协议</h2>
+                            <p class="news-meta">
+                                <i class="fas fa-handshake"></i> 合作签约
+                                <i class="fas fa-tag"></i> 学术合作
+                            </p>
+                            <p>研究组与清华大学计算机系签署了知识计算领域的长期合作协议，双方将在知识图谱、自然语言处理等方面开展深度合作。</p>
+                            <div class="news-actions">
+                                <a href="#" class="btn btn-primary">了解详情</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- 加载指示器 -->
+                <div class="pagination-loading">
+                    <i class="fas fa-spinner"></i>
+                    Loading news...
+                </div>
+
+                <!-- 分页 -->
+                <div class="pagination">
+                    <button class="page-btn disabled">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="page-btn active">1</button>
+                    <button class="page-btn">2</button>
+                    <button class="page-btn">3</button>
+                    <button class="page-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>智能计算研究组</h3>
+                    <p>致力于人工智能前沿技术研究</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="research.html">研究</a></li>
+                        <li><a href="news.html">新闻</a></li>
+                        <li><a href="events.html">活动</a></li>
+                        <li><a href="projects.html">项目</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <p><i class="fas fa-envelope"></i> contact@research-group.edu</p>
+                    <p><i class="fas fa-phone"></i> +86-xxx-xxxx-xxxx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> No.6 Kexueyuan South Road, Haidian District, Beijing</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 智能计算研究组. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

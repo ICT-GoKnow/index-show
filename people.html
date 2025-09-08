@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People - Knowledge Computing Group</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Knowledge Computing Group</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="events.html" class="nav-link">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="people.html" class="nav-link active">People</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 页面标题 -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Team Members</h1>
+                <p>Meet our research team</p>
+            </div>
+        </section>
+
+        <!-- 成员筛选 -->
+        <section class="people-filter">
+            <div class="container">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Members</button>
+                    <button class="filter-tab" data-filter="faculty">Faculty</button>
+                    <button class="filter-tab" data-filter="phd">PhD Students</button>
+                    <button class="filter-tab" data-filter="master">Master Students</button>
+                    <button class="filter-tab" data-filter="alumni">Alumni</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faculty Team -->
+        <section class="faculty-section">
+            <div class="container">
+                <h2>Faculty Team</h2>
+                <div class="faculty-grid">
+                    <div class="person-card faculty" data-category="faculty">
+                        <div class="person-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Prof. Zhang</h3>
+                            <p class="person-title">Professor, PhD Supervisor</p>
+                            <p class="person-email">zhang@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge Graphs, Knowledge Computing</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-google-scholar"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="person-card faculty" data-category="faculty">
+                        <div class="person-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Prof. Li</h3>
+                            <p class="person-title">Professor, PhD Supervisor</p>
+                            <p class="person-email">li@ict.ac.cn</p>
+                            <p class="person-research">Research: Natural Language Processing, Knowledge Graphs</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-google-scholar"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="person-card faculty" data-category="faculty">
+                        <div class="person-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Assoc. Prof. Wang</h3>
+                            <p class="person-title">Associate Professor, Master Supervisor</p>
+                            <p class="person-email">wang@ict.ac.cn</p>
+                            <p class="person-research">Research: Big Data Knowledge Engineering, NLP</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-google-scholar"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="person-card faculty" data-category="faculty">
+                        <div class="person-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Assoc. Prof. Liu</h3>
+                            <p class="person-title">Associate Professor, Master Supervisor</p>
+                            <p class="person-email">liu@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge Computing, Data Mining</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-google-scholar"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PhD Students -->
+        <section class="phd-section">
+            <div class="container">
+                <h2>PhD Students</h2>
+                <div class="students-grid">
+                    <div class="person-card student" data-category="phd">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Zhang San</h3>
+                            <p class="person-title">PhD Student</p>
+                            <p class="person-email">zhangsan@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge Graphs, Graph Neural Networks</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="person-card student" data-category="phd">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Li Si</h3>
+                            <p class="person-title">PhD Student</p>
+                            <p class="person-email">lisi@ict.ac.cn</p>
+                            <p class="person-research">Research: Natural Language Processing, Knowledge Extraction</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="person-card student" data-category="phd">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Wang Wu</h3>
+                            <p class="person-title">PhD Student</p>
+                            <p class="person-email">wangwu@ict.ac.cn</p>
+                            <p class="person-research">Research: Big Data Knowledge Engineering, NLP</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="person-card student" data-category="phd">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Zhao Liu</h3>
+                            <p class="person-title">PhD Student</p>
+                            <p class="person-email">zhaoliu@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge Computing, Question Answering</p>
+                            <div class="person-links">
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Master Students -->
+        <section class="master-section">
+            <div class="container">
+                <h2>Master Students</h2>
+                <div class="students-grid">
+                    <div class="person-card student" data-category="master">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Chen Qi</h3>
+                            <p class="person-title">Master Student</p>
+                            <p class="person-email">chenqi@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge Graph Embedding</p>
+                        </div>
+                    </div>
+
+                    <div class="person-card student" data-category="master">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Liu Ba</h3>
+                            <p class="person-title">Master Student</p>
+                            <p class="person-email">liuba@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge Discovery from Big Data</p>
+                        </div>
+                    </div>
+
+                    <div class="person-card student" data-category="master">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Zhou Jiu</h3>
+                            <p class="person-title">Master Student</p>
+                            <p class="person-email">zhoujiu@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge Graph Reasoning</p>
+                        </div>
+                    </div>
+
+                    <div class="person-card student" data-category="master">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Wu Shi</h3>
+                            <p class="person-title">Master Student</p>
+                            <p class="person-email">wushi@ict.ac.cn</p>
+                            <p class="person-research">Research: Knowledge-enhanced NLP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alumni -->
+        <section class="alumni-section">
+            <div class="container">
+                <h2>Alumni</h2>
+                <div class="alumni-grid">
+                    <div class="person-card alumni" data-category="alumni">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Dr. Sun</h3>
+                            <p class="person-title">PhD Graduate 2020</p>
+                            <p class="person-current">Current: Google Research</p>
+                            <p class="person-research">Research: Knowledge Graphs, Knowledge Computing</p>
+                        </div>
+                    </div>
+
+                    <div class="person-card alumni" data-category="alumni">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Dr. Qian</h3>
+                            <p class="person-title">PhD Graduate 2021</p>
+                            <p class="person-current">Current: Huawei Technologies</p>
+                            <p class="person-research">Research: Natural Language Processing, Knowledge Engineering</p>
+                        </div>
+                    </div>
+
+                    <div class="person-card alumni" data-category="alumni">
+                        <div class="person-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="person-info">
+                            <h3>Dr. Zheng</h3>
+                            <p class="person-title">PhD Graduate 2022</p>
+                            <p class="person-current">Current: Tsinghua University</p>
+                            <p class="person-research">Research: Big Data Knowledge Engineering, Knowledge Graphs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Us -->
+        <section class="join-us">
+            <div class="container">
+                <div class="join-card">
+                    <h2>Join Us</h2>
+                    <p>We welcome outstanding students and researchers interested in knowledge computing and artificial intelligence to join our team.</p>
+                    <div class="join-options">
+                        <div class="join-option">
+                            <h3>PhD Students</h3>
+                            <p>We recruit excellent students with backgrounds in computer science, mathematics, statistics, or related fields</p>
+                            <a href="contact.html" class="btn btn-outline">Apply for PhD</a>
+                        </div>
+                        <div class="join-option">
+                            <h3>Master Students</h3>
+                            <p>We welcome students interested in AI technology to join our research team</p>
+                            <a href="contact.html" class="btn btn-outline">Apply for Master</a>
+                        </div>
+                        <div class="join-option">
+                            <h3>Postdocs</h3>
+                            <p>We provide postdoctoral research opportunities for outstanding PhD graduates</p>
+                            <a href="contact.html" class="btn btn-outline">Apply for Postdoc</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Knowledge Computing Group</h3>
+                    <p>Institute of Computing Technology, Chinese Academy of Sciences</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> contact@kclab.ict.ac.cn</p>
+                    <p><i class="fas fa-phone"></i> +86-10-6260-1234</p>
+                    <p><i class="fas fa-map-marker-alt"></i> No.6 Kexueyuan South Road, Haidian District, Beijing</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Knowledge Computing Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
