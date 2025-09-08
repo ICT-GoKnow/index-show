@@ -1,0 +1,110 @@
+{
+  "projects": [
+    {
+      "id": "knowledge-graph-reasoning",
+      "title": "Knowledge Graph Reasoning",
+      "description": "基于图神经网络的知识图谱推理系统",
+      "category": "research",
+      "status": "active",
+      "github_url": "https://github.com/yourusername/knowledge-graph-reasoning",
+      "paper_url": "https://arxiv.org/abs/2024.xxxxx",
+      "demo_url": "https://yourusername.github.io/knowledge-graph-reasoning",
+      "technologies": ["Python", "PyTorch", "Graph Neural Networks"],
+      "year": 2024,
+      "authors": ["张三", "李四"],
+      "conference": "WWW 2024",
+      "stars": 45,
+      "forks": 12
+    },
+    {
+      "id": "nlp-knowledge-enhanced",
+      "title": "Knowledge-Enhanced NLP",
+      "description": "知识增强的自然语言处理框架",
+      "category": "research",
+      "status": "active",
+      "github_url": "https://github.com/yourusername/nlp-knowledge-enhanced",
+      "paper_url": "https://arxiv.org/abs/2024.xxxxx",
+      "demo_url": "https://yourusername.github.io/nlp-knowledge-enhanced",
+      "technologies": ["Python", "Transformers", "Knowledge Graphs"],
+      "year": 2024,
+      "authors": ["王五", "赵六"],
+      "conference": "ACL 2024",
+      "stars": 32,
+      "forks": 8
+    },
+    {
+      "id": "big-data-knowledge-extraction",
+      "title": "Big Data Knowledge Extraction",
+      "description": "大规模数据知识抽取与管理系统",
+      "category": "research",
+      "status": "active",
+      "github_url": "https://github.com/yourusername/big-data-knowledge-extraction",
+      "paper_url": "https://arxiv.org/abs/2024.xxxxx",
+      "demo_url": "https://yourusername.github.io/big-data-knowledge-extraction",
+      "technologies": ["Python", "Apache Spark", "Elasticsearch"],
+      "year": 2024,
+      "authors": ["孙七", "周八"],
+      "conference": "KDD 2024",
+      "stars": 28,
+      "forks": 6
+    },
+    {
+      "id": "knowledge-computing-framework",
+      "title": "Knowledge Computing Framework",
+      "description": "知识计算统一框架与工具集",
+      "category": "framework",
+      "status": "active",
+      "github_url": "https://github.com/yourusername/knowledge-computing-framework",
+      "documentation_url": "https://yourusername.github.io/knowledge-computing-framework/docs",
+      "technologies": ["Python", "FastAPI", "Docker"],
+      "year": 2024,
+      "authors": ["研究组全体成员"],
+      "stars": 67,
+      "forks": 15
+    },
+    {
+      "id": "medical-ai-diagnosis",
+      "title": "Medical AI Diagnosis System",
+      "description": "基于知识图谱的医学影像AI诊断系统",
+      "category": "application",
+      "status": "completed",
+      "github_url": "https://github.com/yourusername/medical-ai-diagnosis",
+      "paper_url": "https://arxiv.org/abs/2023.xxxxx",
+      "demo_url": "https://yourusername.github.io/medical-ai-diagnosis",
+      "technologies": ["Python", "PyTorch", "Medical Imaging"],
+      "year": 2023,
+      "authors": ["张三", "李四", "王五"],
+      "conference": "ICML 2024",
+      "award": "国家科技进步二等奖",
+      "stars": 89,
+      "forks": 23
+    },
+    {
+      "id": "federated-learning-privacy",
+      "title": "Federated Learning with Privacy",
+      "description": "隐私保护的联邦学习系统",
+      "category": "research",
+      "status": "completed",
+      "github_url": "https://github.com/yourusername/federated-learning-privacy",
+      "paper_url": "https://arxiv.org/abs/2024.xxxxx",
+      "demo_url": "https://yourusername.github.io/federated-learning-privacy",
+      "technologies": ["Python", "PyTorch", "Differential Privacy"],
+      "year": 2024,
+      "authors": ["张三"],
+      "conference": "AAAI 2024",
+      "award": "最佳学生论文奖",
+      "stars": 156,
+      "forks": 34
+    }
+  ],
+  "categories": {
+    "research": "研究项目",
+    "framework": "框架工具",
+    "application": "应用系统"
+  },
+  "status": {
+    "active": "进行中",
+    "completed": "已完成",
+    "archived": "已归档"
+  }
+}
