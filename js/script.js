@@ -723,4 +723,20 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.log('非项目页面，跳过项目数据加载');
     }
+
+    // 论文卡片点击功能
+    const clickableCards = document.querySelectorAll('.clickable-card');
+    clickableCards.forEach(card => {
+        card.addEventListener('click', function(e) {
+            // 如果点击的是按钮，不触发卡片点击
+            if (e.target.closest('.btn')) {
+                return;
+            }
+            
+            const url = this.getAttribute('data-url');
+            if (url) {
+                window.open(url, '_blank');
+            }
+        });
+    });
 });
